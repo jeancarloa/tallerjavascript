@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+
+}
+.contenedor{
+    background-color: aquamarine;
+    margin: 200px auto 0 auto; 
+    width: 70%;
+    border-radius: 10px;
+    font-family: Helvetica;
+    align-content: center;
+}
+#heder{
+    display: flex;
+    justify-content: center;
+}
+#heder > button{
+    border: 0;
+    color: bisque;
+    background-color: gray;
+    margin-left: 20px;
+    padding: 10px;
+
+}
+.contenedor > h1{
+    text-align: center;
+}
